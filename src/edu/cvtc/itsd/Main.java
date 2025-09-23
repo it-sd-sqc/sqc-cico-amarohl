@@ -42,6 +42,8 @@ public class Main {
         throws BadLocationException
     {
       if (fb.getDocument() != null) {
+        // I figured this was where the error was put its calling the super,
+        // so I'm not sure what's wrong
         super.insertString(fb, offset, stringToAdd, attr);
       }
       else {
