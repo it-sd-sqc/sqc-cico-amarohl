@@ -61,4 +61,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should display "Developer" for the user name.
 
+# Module 6: Changing UI Colors
+##Test steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+
+## Expected Results
+* Text entry field should be a light grey
+* The background of the Checked In/Out screen should be a mild green
+
 
